@@ -1,0 +1,19 @@
+.editor {
+  position: absolute;
+  z-index: 1;
+  outline: none;
+}
+
+.editor .rectangle {
+  border: 1px solid #007bff;
+  position: absolute;
+}
+
+.single-resizer {
+  cursor: move;
+}
+
+.active .fFutOK, .active .eFfVLd, .active .single-resizer {
+  /*border-color: #007bff;*/
+  border-width: 2px;
+}

@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  documentparser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/pdf-document-editor'
+      - '/pdf-document-editor/node_modules'
+    ports:
+      - 5000:5000

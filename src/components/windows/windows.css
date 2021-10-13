@@ -1,0 +1,28 @@
+.collapsible-window {
+  background: #007bff04;
+  padding: 10px 20px 20px;
+  height: 50vh;
+  z-index: 2;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.collapsible-window .nav-tabs .nav-item.show .nav-link, .collapsible-window .nav-tabs .nav-link.active {
+  background: none;
+}
+
+#run-template-result-window .container-fluid {
+  overflow-y: auto;
+  height: calc(50vh - 42px - 42px - 16px - 30px);
+}
+
+.collapsible-window-header {
+  height: 16px;
+  font-size: 11px;
+}
+
+#run-object-result-window .container-fluid {
+  overflow-y: auto;
+  height: calc(50vh - 30px - 30px);
+}

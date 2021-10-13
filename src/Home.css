@@ -1,0 +1,249 @@
+html {
+  overflow-y: unset;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.dashboard-wrapper{
+  padding-left: 30px;
+}
+
+.pdf-viewer-wrapper {
+  background: rgba(0, 0, 0, 0.02);
+  padding-top: 69px;
+  height: 100vh;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.mR-10 {
+  margin-right: 10px;
+}
+
+.modal {
+  z-index: 1041;
+}
+
+div.fade.in.modal {
+  display:flex !important;
+}
+
+.modal-dialog {
+  margin: 40px auto;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.mT-10 {
+  margin-top: 10px;
+}
+
+.mT-20 {
+  margin-top: 20px;
+}
+
+.mT-15 {
+  margin-top: 15px;
+}
+
+.macros-list-item {
+  cursor: pointer;
+}
+
+.macros-list-item:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.mL-20 {
+  margin-left: 20px;
+}
+
+.code {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.run-template-result-grid h3, .select-grid-cell-modal h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mB-10 {
+  margin-bottom: 10px;
+}
+
+.mL-10 {
+  margin-left: 10px;
+}
+
+.mT-50 {
+  margin-top: 50px;
+}
+
+.pT-10 {
+  padding-top: 10px;
+}
+
+.pT-20 {
+  padding-top: 20px;
+}
+
+.pB-10 {
+  padding-bottom: 10px;
+}
+
+table.td-hover td:hover {
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 0.7rem;
+}
+
+.col-form-label,
+.form-check-label,
+.object-list-item {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.form-control {
+  height: calc(1.2em + .75rem + 2px);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.mT-30 {
+  margin-top: 30px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.regex-form {
+  padding-left: 0;
+}
+
+.condensed-button {
+  height: 30px;
+  margin-top: 0.2rem;
+}
+
+.form-group {
+  margin-bottom: 0.3rem;
+}
+
+.modal-dialog.modal-75w {
+  width: 75vw;
+  max-width: none !important;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog.modal-75w {
+    width: 75vw;
+    max-width: none !important;
+  }
+}
+
+.modal-content {
+  width: auto;
+}
+
+.grid-cell-selector td {
+  border-left: 1px solid #dbdbdb;
+}
+
+.grid-cell-selector td.active, .grid-cell-selector td.active:hover {
+  background: rgba(0, 123, 255, 0.1);
+}
+
+.grid-cell-selector td:first-child {
+  border-left: none;
+}
+
+.title-bar {
+  width: 100vw;
+  height: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: white;
+}
+
+.version {
+  position: absolute;
+  font-size: 10px;
+  top: 14px;
+  right: 4px;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+#run-template-result-window .react-bootstrap-table table {
+  table-layout: auto;
+}
+
+.guide{
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  z-index: 1;
+}

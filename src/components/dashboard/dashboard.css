@@ -1,0 +1,103 @@
+.dashboard {
+  padding-top: 38px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.dashboard-menu {
+  position: fixed;
+  top: 15px;
+  left: 0;
+  width: 100vw;
+  background: white;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.object-list {
+  margin-top: 10px;
+  height: 25vh;
+  font-size: 0.8rem;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.object-options-body {
+  padding-top: 3px;
+  margin-top: 10px;
+}
+
+.object-list-item {
+  cursor: pointer;
+  width: 95%;
+  overflow-y: hidden;
+  padding: 2px 0px 2px 10px;
+}
+
+.object-list-item.active {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.custom-file-label {
+  overflow-y: hidden;
+}
+
+.object-options-coordinates {
+  font-size: 13px;
+  line-height: 37px;
+}
+
+.object-list-icon {
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 12px;
+  height: 15px;
+  display: inline-block;
+  width: 14px;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #4a4a4a;
+}
+
+.delete-object {
+  float: right;
+  border: none;
+  background: none;
+  font-size: 12px;
+  color: #dc3545;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 5px;
+  line-height: 22px;
+}
+
+.dashboard h4 {
+  font-size: 18px;
+}
+
+.dashboard-combobox {
+  width: 64.3%;
+  height: calc(1.2em + .75rem + 2px);
+  float: right;
+}
+
+.dashboard-combobox .rw-widget-picker {
+  height: 100%;
+}
+
+.custom-combobox .rw-widget-picker{
+  height: 32px;
+}
+
+.custom-combobox .rw-popup-container .rw-popup .rw-list-option{
+  font-size: 0.8rem;
+}
+
+.custom-combobox .rw-widget-picker input{
+  font-size: 0.8rem;
+}
+
+.custom-combobox .rw-widget-picker .rw-select{
+  vertical-align: middle;
+}
